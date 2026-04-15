@@ -5,9 +5,11 @@ Adds a **"Save File…"** option to the **File** menu that opens a native OS sav
 ![Chrome/Edge/Electron](https://img.shields.io/badge/Chrome%20%7C%20Edge%20%7C%20Electron-Native%20Dialog-brightgreen)
 ![Firefox](https://img.shields.io/badge/Firefox-Download%20Fallback-yellow)
 
+![Save File menu item](screenshot.png)
+
 ## Features
 
-- Opens a **system file dialog** (Save As) to pick the save location
+- Opens a **system file dialog** to pick the save location
 - Saves the current workflow as a `.json` file
 - Preserves canvas view state (zoom/offset) if enabled in settings
 - Falls back to a standard browser download in Firefox
