@@ -10,7 +10,7 @@ app.registerExtension({
       menubarLabel: 'Save File\u2026',
       icon: 'pi pi-save',
       async function () {
-        const workflow = app.workflowManager?.activeWorkflow
+        const workflow = app.extensionManager?.workflow?.activeWorkflow
         const p = await app.graphToPrompt()
 
         // Preserve canvas view state if enabled
