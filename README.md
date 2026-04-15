@@ -7,9 +7,12 @@ Adds a **"Save File…"** option to the **File** menu that opens a native OS sav
 
 ![Save File menu item](screenshot.png)
 
-## Why not just Export?
+## Why?
 
-ComfyUI's built-in **Export** saves the workflow to your browser's default Downloads folder. **Save File…** opens a **native OS file dialog** instead, so you can pick any location on your drive — no need to move files manually after saving.
+- **Save / Save As** stores workflows in ComfyUI's internal storage — you can't choose where on disk the file goes.
+- **Export** downloads to your browser's default Downloads folder.
+
+**Save File…** opens a **native OS file dialog**, so you can pick any location on your drive — no need to move files manually after saving.
 
 ## Features
 
