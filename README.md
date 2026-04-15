@@ -7,9 +7,13 @@ Adds a **"Save File…"** option to the **File** menu that opens a native OS sav
 
 ![Save File menu item](screenshot.png)
 
+## Why not just Export?
+
+ComfyUI's built-in **Export** saves the workflow to your browser's default Downloads folder. **Save File…** opens a **native OS file dialog** instead, so you can pick any location on your drive — no need to move files manually after saving.
+
 ## Features
 
-- Opens a **system file dialog** to pick the save location
+- **Native OS save dialog** — choose exactly where to save, not just Downloads
 - Saves the current workflow as a `.json` file
 - Preserves canvas view state (zoom/offset) if enabled in settings
 - Falls back to a standard browser download in Firefox
